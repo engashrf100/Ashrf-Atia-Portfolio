@@ -47,11 +47,31 @@ Egg POS is a cloud-connected, Arabic-first tablet application that turns any And
 
 <div align="center">
 
-  <img src="screens/Screenshot%202025-11-24%20at%202.30.29%E2%80%AFPM.png" alt="POS Actions" width="45%" />
-  <img src="screens/Screenshot%202025-11-24%20at%202.31.02%E2%80%AFPM.png" alt="Inventory Overview" width="45%" />
+  <img src="screens/Screenshot%202025-11-24%20at%202.29.51%E2%80%AFPM.png" alt="Screen 1" width="45%" />
+  <img src="screens/Screenshot%202025-11-24%20at%202.29.55%E2%80%AFPM.png" alt="Screen 2" width="45%" />
 
-  <img src="screens/Screenshot%202025-11-24%20at%202.31.25%E2%80%AFPM.png" alt="Supplier Management" width="45%" />
-  <img src="screens/Screenshot%202025-11-24%20at%202.32.01%E2%80%AFPM.png" alt="Statistics & Logs" width="45%" />
+  <img src="screens/Screenshot%202025-11-24%20at%202.29.59%E2%80%AFPM.png" alt="Screen 3" width="45%" />
+  <img src="screens/Screenshot%202025-11-24%20at%202.30.07%E2%80%AFPM.png" alt="Screen 4" width="45%" />
+
+  <img src="screens/Screenshot%202025-11-24%20at%202.30.11%E2%80%AFPM.png" alt="Screen 5" width="45%" />
+  <img src="screens/Screenshot%202025-11-24%20at%202.30.26%E2%80%AFPM.png" alt="Screen 6" width="45%" />
+
+  <img src="screens/Screenshot%202025-11-24%20at%202.30.29%E2%80%AFPM.png" alt="Screen 7" width="45%" />
+  <img src="screens/Screenshot%202025-11-24%20at%202.30.48%E2%80%AFPM.png" alt="Screen 8" width="45%" />
+
+  <img src="screens/Screenshot%202025-11-24%20at%202.30.53%E2%80%AFPM.png" alt="Screen 9" width="45%" />
+  <img src="screens/Screenshot%202025-11-24%20at%202.30.56%E2%80%AFPM.png" alt="Screen 10" width="45%" />
+
+  <img src="screens/Screenshot%202025-11-24%20at%202.31.02%E2%80%AFPM.png" alt="Screen 11" width="45%" />
+  <img src="screens/Screenshot%202025-11-24%20at%202.31.17%E2%80%AFPM.png" alt="Screen 12" width="45%" />
+
+  <img src="screens/Screenshot%202025-11-24%20at%202.31.19%E2%80%AFPM.png" alt="Screen 13" width="45%" />
+  <img src="screens/Screenshot%202025-11-24%20at%202.31.25%E2%80%AFPM.png" alt="Screen 14" width="45%" />
+
+  <img src="screens/Screenshot%202025-11-24%20at%202.31.31%E2%80%AFPM.png" alt="Screen 15" width="45%" />
+  <img src="screens/Screenshot%202025-11-24%20at%202.32.01%E2%80%AFPM.png" alt="Screen 16" width="45%" />
+
+  <img src="screens/Screenshot%202025-11-24%20at%202.50.16%E2%80%AFPM.png" alt="Screen 17" width="45%" />
 
 </div>
 
