@@ -20,6 +20,38 @@
 
 </div>
 
+## Certificates
+
+### Technical Skills & IT Certifications
+
+| Certificate | Issuer | Date |
+| --- | --- | --- |
+| [Cisco Certified Network Associate (CCNA)](CCNA.jpg) | Cisco Systems, Inc. | Certified: 05 Feb 2013 |
+| [Certified Ethical Hacker (CEH)](CEH.jpg) | EC-Council | Issued: 08 Apr 2014 |
+| [Microsoft Certified Professional (MCP)](MCP.jpg) | Microsoft | Earned: 12 Jan 2014 |
+| [Microsoft Certified Solutions Associate (MCSA) – Windows Server 2012](MCSA.jpg) | Microsoft | Achieved: 20 Feb 2014 |
+| [Microsoft Certified Technology Specialist (MCTS) – Windows Server 2008 Network Infrastructure](MCTS.jpg) | Microsoft | Achieved: 01 Dec 2012 |
+| [Microsoft Certified Solutions Expert (MCSE) – Communication](Solutions Expert.jpg) | Microsoft | Achieved: 01 Jun 2014 |
+| [Implementing Forefront Threat Management Gateway (TMG) 2010 – Course 50357](tmg.jpg) | Microsoft Partner (Silver Learning) / Computek | 17 May 2014 |
+
+### Soft Skills, Workshops & Professional Development
+
+| Workshop / Program | Organizer | Date |
+| --- | --- | --- |
+| [Outstanding Customer Service Workshop](outstanding-customer-service-workshop-2023.jpeg) | Smart Digital Services | 08–09 March 2023 |
+| [Stress Management Workshop](stress-management-workshop-2025.jpeg) | Smart Digital Services | 13 January 2025 |
+| [Communication Skills & Team Work Program](communication-teamwork-program-2021.jpeg) | Smart Cards Applications Co. | 21–22 February 2021 |
+| [Time Management Workshop](time-management-workshop-2024.jpeg) | Smart Digital Services | 14 April 2024 |
+| [Basic Selling Skills Workshop](basic-selling-skills-workshop-2024.jpeg) | Smart Digital Services | 22 August 2024 |
+| [Organizational Culture & Behavior Workshop](organizational-culture-behavior-workshop-2022.jpeg) | Smart Digital Services | 04–05 September 2022 |
+| [Business Email Writing Workshop](business-email-writing-workshop-2024.jpeg) | Smart Digital Services | 18 January 2024 |
+
+### Experience & Recognition
+
+| Certificate | Issuer | Duration |
+| --- | --- | --- |
+| [Certificate of Service & Employment Capacity](smart-digital-services-employment-certificate-2014-2025.jpeg) | Smart Cards Applications Company (Smart Digital Services) | 21 July 2014 – 25 May 2025 |
+
 ## Quick Links
 
 <div align="center">
@@ -47,14 +79,6 @@ My professional CV is available for download in PDF format. It includes:
 - Technical skills and expertise
 - Education and certifications
 - Contact information
-
-## Certificates
-
-*Certificates will be added here.*
-
----
-
-**Note**: This portfolio is under progress. Certificates are being organized and will be added soon.
 
 ## Contact
 
