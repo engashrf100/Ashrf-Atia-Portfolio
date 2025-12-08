@@ -1,4 +1,5 @@
 import { $, createEl } from './utils.js';
+import { setupLazyImages } from './projects.js';
 
 let certData = null;
 let currentTab = 'experience';
@@ -32,18 +33,33 @@ function renderCertGrid(data, tabId = currentTab, language = 'en') {
     const title = item.title[language] || item.title.en;
     cardHTML(grid, item, title, language);
   });
+  // Setup lazy loading for certificate images
+  setTimeout(() => setupLazyImages(), 100);
 }
 
 function cardHTML(grid, item, title, language) {
   const card = createEl('div', 'card cert-card animate-in');
   const subtitle = item.title.ar && language === 'ar' ? item.title.ar : item.title.ar || '';
   card.innerHTML = `
-    <img src="${item.image}" alt="${title}" loading="lazy">
-    <h4 style="margin:10px 0 6px;">${title}</h4>
-    <div style="color:var(--text-secondary);font-size:14px;">${subtitle}</div>
-    <div style="color:var(--text-secondary);margin-top:6px;">${item.issuer}</div>
-    <div style="color:var(--text-secondary);font-size:13px;">${item.duration || item.date || ''}</div>
+    <div class="cert-image-container">
+      <img data-src="${item.image}" alt="${title}" class="lazy-img cert-image" loading="lazy">
+    </div>
+    <div class="cert-content">
+      <h4 class="cert-title">${title}</h4>
+      ${subtitle ? `<div class="cert-subtitle">${subtitle}</div>` : ''}
+      <div class="cert-issuer">${item.issuer}</div>
+      ${item.duration || item.date ? `<div class="cert-date">${item.duration || item.date}</div>` : ''}
+    </div>
   `;
+  card.addEventListener('click', () => {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    if (lightbox && lightboxImg) {
+      lightboxImg.src = item.image;
+      lightbox.classList.add('show');
+      lightbox.setAttribute('aria-hidden', 'false');
+    }
+  });
   grid.appendChild(card);
 }
 

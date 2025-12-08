@@ -23,33 +23,56 @@ function buildProjectCard(project, lang) {
   const cover = project.cover;
 
   card.innerHTML = `
-    <div class="card-header">
-      <div style="display:flex;align-items:center;gap:10px;">
-        <img src="${project.logo}" alt="${title}" width="44" height="44" style="border-radius:10px;border:1px solid var(--card-border);object-fit:cover;">
-        <div>
-          <h3 style="margin:0;">${title}</h3>
-          <div class="meta"><span class="badge">${project.year}</span> <span class="badge">${project.status}</span> <span class="badge">${project.flags.join(' ')}</span></div>
+    ${cover ? `
+      <div class="project-card-cover">
+        <img data-src="${cover}" alt="${title}" class="lazy-img project-cover-img">
+        <div class="project-cover-overlay"></div>
+        <div class="project-logo-overlay">
+          <img src="${project.logo}" alt="${title}" class="project-logo-large">
         </div>
       </div>
-    </div>
-    <p class="text-secondary">${desc}</p>
-    <div class="tags">
-      ${project.stack.slice(0, 6).map(tag => `<span class="tag">${tag}</span>`).join('')}
-    </div>
-    <div class="meta">${project.market.join(', ')}</div>
-    ${cover ? `<img data-src="${cover}" alt="${title} preview" class="lazy-img">` : ''}
-    <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;">
-      <button class="btn secondary" data-action="open-project" data-id="${project.id}">${lang === 'ar' ? 'التفاصيل' : 'View Details'}</button>
-      ${project.links.demo ? `<a class="btn ghost" href="${project.links.demo}" target="_blank">${lang === 'ar' ? 'عرض الديمو' : 'Demo'}</a>` : ''}
-      ${project.links.details ? `<a class="btn ghost" href="${project.links.details}" target="_blank">README</a>` : ''}
+    ` : `
+      <div class="project-logo-container">
+        <img src="${project.logo}" alt="${title}" class="project-logo-large">
+      </div>
+    `}
+    <div class="project-card-content">
+      <div class="project-card-header">
+        <h3 class="project-title">${title}</h3>
+        <div class="project-badges">
+          <span class="badge">${project.year}</span>
+          <span class="badge badge-status">${project.status}</span>
+          ${project.flags.length ? `<span class="badge badge-flags">${project.flags.join(' ')}</span>` : ''}
+        </div>
+      </div>
+      <p class="project-description">${desc}</p>
+      <div class="project-market">
+        <span class="market-label">${lang === 'ar' ? 'السوق:' : 'Market:'}</span>
+        <span class="market-value">${project.market.join(', ')}</span>
+      </div>
+      <div class="project-tags">
+        ${project.stack.slice(0, 5).map(tag => `<span class="tag">${tag}</span>`).join('')}
+      </div>
+      <div class="project-actions">
+        <button class="btn secondary" data-action="open-project" data-id="${project.id}">${lang === 'ar' ? 'التفاصيل' : 'View Details'}</button>
+        ${project.links.demo ? `<a class="btn ghost" href="${project.links.demo}" target="_blank" onclick="event.stopPropagation()">${lang === 'ar' ? 'عرض الديمو' : 'Demo'}</a>` : ''}
+      </div>
     </div>
   `;
 
-  card.querySelector('[data-action="open-project"]').addEventListener('click', () => openProjectModal(project));
+  const btn = card.querySelector('[data-action="open-project"]');
+  if (btn) {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openProjectModal(project);
+    });
+  }
+  
   card.addEventListener('click', (e) => {
-    if (e.target.tagName.toLowerCase() === 'a' || e.target.dataset.action === 'open-project') return;
+    if (e.target.tagName.toLowerCase() === 'a' || e.target.closest('a') || e.target.dataset.action === 'open-project') return;
     openProjectModal(project);
   });
+  
   return card;
 }
 
@@ -59,13 +82,29 @@ function filterProjects(year) {
 }
 
 function setupFilters() {
-  $$('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
+  const filterButtons = $$('.filter-btn');
+  if (!filterButtons.length) return;
+  
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
       $$('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      const year = btn.dataset.filter;
+      const year = btn.dataset.filter || 'all';
       const filtered = filterProjects(year);
-      renderProjects(filtered, currentLang);
+      
+      // Add smooth transition
+      const grid = $('#projectGrid');
+      if (grid) {
+        grid.style.opacity = '0.5';
+        grid.style.transition = 'opacity 0.2s ease';
+        setTimeout(() => {
+          renderProjects(filtered, currentLang);
+          grid.style.opacity = '1';
+        }, 150);
+      } else {
+        renderProjects(filtered, currentLang);
+      }
     });
   });
 }
@@ -233,6 +272,7 @@ export {
   openProjectModal,
   bindModalClose,
   handleHashDeepLink,
-  setupHashListener
+  setupHashListener,
+  setupLazyImages
 };
 
