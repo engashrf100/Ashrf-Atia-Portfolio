@@ -50,6 +50,15 @@ function debounce(fn, delay = 150) {
   };
 }
 
+async function loadData() {
+  const [personal, projects, certs] = await Promise.all([
+    fetch('./data/personal.json').then(r => r.json()),
+    fetch('./data/projects.json').then(r => r.json()),
+    fetch('./data/certificates.json').then(r => r.json())
+  ]);
+  return { personal, projects, certs };
+}
+
 export {
   $,
   $$,
@@ -59,6 +68,7 @@ export {
   setLang,
   translateText,
   createEl,
-  debounce
+  debounce,
+  loadData
 };
 

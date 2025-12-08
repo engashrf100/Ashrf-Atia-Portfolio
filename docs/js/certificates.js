@@ -1,70 +1,50 @@
 import { $, createEl } from './utils.js';
-import { setupLazyImages } from './projects.js';
 
 let certData = null;
 let currentTab = 'experience';
 let lang = 'en';
 
-function renderCertTabs(data, language = 'en') {
+export function renderCertTabs(data, language = 'en') {
   certData = data;
   lang = language;
-  const tabsWrap = $('#certTabs');
-  if (!tabsWrap) return;
-  tabsWrap.innerHTML = '';
-  data.tabs.forEach(tab => {
-    const btn = createEl('button', 'tab', tab.label[lang] || tab.label.en);
-    btn.dataset.id = tab.id;
-    if (tab.id === currentTab) btn.classList.add('active');
+  const tabs = $$('.cert-tab');
+  if (!tabs.length) return;
+  
+  tabs.forEach(btn => {
     btn.addEventListener('click', () => {
-      currentTab = tab.id;
-      renderCertTabs(data, lang);
-      renderCertGrid(data, tab.id, lang);
+      currentTab = btn.dataset.tab;
+      tabs.forEach(t => {
+        t.classList.remove('active', 'border-b-primary', 'text-white');
+        t.classList.add('border-b-transparent', 'text-[#959dc6]');
+      });
+      btn.classList.add('active', 'border-b-primary', 'text-white');
+      btn.classList.remove('border-b-transparent', 'text-[#959dc6]');
+      renderCertGrid(data, currentTab, lang);
     });
-    tabsWrap.appendChild(btn);
   });
 }
 
-function renderCertGrid(data, tabId = currentTab, language = 'en') {
-  const grid = $('#certGrid');
+export function renderCertGrid(data, tabId = currentTab, language = 'en') {
+  const grid = $('#certificatesGrid');
   if (!grid) return;
   const list = data[tabId] || [];
   grid.innerHTML = '';
+  
   list.forEach(item => {
     const title = item.title[language] || item.title.en;
-    cardHTML(grid, item, title, language);
+    const card = createEl('div', 'flex flex-col gap-3');
+    
+    card.innerHTML = `
+      <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#1E2234] flex items-center justify-center cursor-pointer hover:scale-105 transition-transform" onclick="openLightbox('${item.image}')">
+        <img src="${item.image}" alt="${title}" class="h-16 w-16 object-contain" loading="lazy">
+      </div>
+      <div>
+        <p class="text-white text-base font-medium leading-normal">${title}</p>
+        <p class="text-[#959dc6] text-sm font-normal leading-normal">${item.issuer}</p>
+        ${item.duration || item.date ? `<p class="text-[#959dc6] text-sm font-normal leading-normal">${item.duration || item.date}</p>` : ''}
+      </div>
+    `;
+    
+    grid.appendChild(card);
   });
-  // Setup lazy loading for certificate images
-  setTimeout(() => setupLazyImages(), 100);
 }
-
-function cardHTML(grid, item, title, language) {
-  const card = createEl('div', 'card cert-card animate-in');
-  const subtitle = item.title.ar && language === 'ar' ? item.title.ar : item.title.ar || '';
-  card.innerHTML = `
-    <div class="cert-image-container">
-      <img data-src="${item.image}" alt="${title}" class="lazy-img cert-image" loading="lazy">
-    </div>
-    <div class="cert-content">
-      <h4 class="cert-title">${title}</h4>
-      ${subtitle ? `<div class="cert-subtitle">${subtitle}</div>` : ''}
-      <div class="cert-issuer">${item.issuer}</div>
-      ${item.duration || item.date ? `<div class="cert-date">${item.duration || item.date}</div>` : ''}
-    </div>
-  `;
-  card.addEventListener('click', () => {
-    const lightbox = document.getElementById('lightbox');
-    const lightboxImg = document.getElementById('lightboxImg');
-    if (lightbox && lightboxImg) {
-      lightboxImg.src = item.image;
-      lightbox.classList.add('show');
-      lightbox.setAttribute('aria-hidden', 'false');
-    }
-  });
-  grid.appendChild(card);
-}
-
-export {
-  renderCertTabs,
-  renderCertGrid
-};
-

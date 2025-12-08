@@ -1,125 +1,199 @@
-<!doctype html>
-<html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html class="dark" lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Ashrf Atia - Flutter & Mobile Engineer Portfolio" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="preload" href="css/critical.css" as="style">
-  <link rel="stylesheet" href="css/critical.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Ashrf Atia | Portfolio</title>
-</head>
-<body>
-  <noscript>
-    <div class="noscript-warning">This site works best with JavaScript enabled.</div>
-  </noscript>
-
-  <header class="site-header">
-    <div class="logo">AA</div>
-    <nav class="nav">
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-      <ul class="nav-links">
-        <li><a href="#hero" data-i18n="nav.home">Home</a></li>
-        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
-        <li><a href="#certificates" data-i18n="nav.certificates">Certificates</a></li>
-        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="header-actions">
-      <button id="langToggle" class="ghost-btn">AR</button>
-      <button id="themeToggle" class="ghost-btn" aria-label="Toggle theme">🌓</button>
-    </div>
-  </header>
-
-  <main>
-    <section id="hero" class="hero section">
-      <div class="hero-content">
-        <p class="eyebrow" data-i18n="hero.eyebrow">Mobile Engineer • Flutter • SaaS</p>
-        <h1 id="heroTitle"></h1>
-        <p id="heroTagline" class="hero-tagline"></p>
-        <div id="heroActions" class="hero-actions"></div>
-        <div id="heroContacts" class="hero-contacts"></div>
-        <div id="visitorCount" class="visitor-counter" aria-live="polite"></div>
-      </div>
-      <div class="hero-visual">
-        <div class="hero-glow"></div>
-      </div>
-    </section>
-
-    <section id="overview" class="section">
-      <div class="section-header">
-        <h2 data-i18n="overview.title">What I Do</h2>
-        <p data-i18n="overview.subtitle">Focus areas and strengths</p>
-      </div>
-      <div id="focusCards" class="grid focus-grid"></div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="section-header">
-        <h2 data-i18n="projects.title">Projects</h2>
-        <p data-i18n="projects.subtitle">Highlighted Flutter and mobile projects</p>
-      </div>
-      <div class="filters">
-        <button class="filter-btn active" data-filter="all" data-i18n="projects.filters.all">All</button>
-        <button class="filter-btn" data-filter="2025">2025</button>
-        <button class="filter-btn" data-filter="2024">2024</button>
-        <button class="filter-btn" data-filter="2023">2023</button>
-      </div>
-      <div id="projectGrid" class="grid project-grid"></div>
-    </section>
-
-    <section id="certificates" class="section">
-      <div class="section-header">
-        <h2 data-i18n="certs.title">Certificates</h2>
-        <p data-i18n="certs.subtitle">Experience, soft skills, and technical achievements</p>
-      </div>
-      <div id="certTabs" class="tabs"></div>
-      <div id="certGrid" class="grid cert-grid"></div>
-      <div class="cert-cta">
-        <a class="btn" href="./cv-2pages.pdf" target="_blank" data-i18n="certs.download">Download CV</a>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="section-header">
-        <h2 data-i18n="contact.title">Contact</h2>
-        <p data-i18n="contact.subtitle">Email or WhatsApp</p>
-      </div>
-      <div id="contactLinks" class="contact-links"></div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div>© <span id="year"></span> Ashrf Atia</div>
-    <div class="footer-links">
-      <a href="https://github.com/engashrf100" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/ashrf-atia-mostafa-92538a318/" target="_blank">LinkedIn</a>
-    </div>
-  </footer>
-
-  <div id="projectModal" class="modal" aria-hidden="true">
-    <div class="modal-backdrop"></div>
-    <div class="modal-dialog" role="dialog" aria-modal="true">
-      <button class="modal-close" aria-label="Close">×</button>
-      <div id="modalContent"></div>
-    </div>
-  </div>
-
-  <div id="lightbox" class="lightbox" aria-hidden="true">
-    <div class="lightbox-backdrop"></div>
-    <img id="lightboxImg" alt="Preview">
-    <button class="lightbox-close" aria-label="Close">×</button>
-  </div>
-
-  <script type="module" src="js/main.js" defer></script>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Ashrf Atia Portfolio</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
   <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./service-worker.js').catch(() => {});
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#667cea",
+            "background-light": "#f6f6f8",
+            "background-dark": "#121421",
+          },
+          fontFamily: {
+            "display": ["Inter", "sans-serif"],
+            "arabic": ["Cairo", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
     }
   </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    body {
+      min-height: max(884px, 100dvh);
+    }
+    [dir="rtl"] {
+      font-family: 'Cairo', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display transition-colors duration-300">
+  <div id="app" class="relative flex min-h-screen w-full flex-col">
+    <!-- Top App Bar -->
+    <header class="flex items-center p-4 bg-background-light dark:bg-background-dark sticky top-0 z-50 backdrop-blur-sm bg-opacity-90 dark:bg-opacity-90">
+      <div class="flex w-28 items-center justify-start">
+        <div id="langToggle" class="flex cursor-pointer items-center justify-center overflow-hidden rounded-full bg-primary/10 text-primary">
+          <span id="langEn" class="px-3 py-1.5 text-sm font-bold">EN</span>
+          <span id="langAr" class="px-3 py-1.5 text-sm font-bold text-white/50 dark:text-white/50">AR</span>
+        </div>
+      </div>
+      <div class="flex-1"></div>
+      <nav class="hidden md:flex items-center gap-4">
+        <a href="#home" class="nav-link text-slate-700 dark:text-white text-sm font-medium hover:text-primary transition-colors">Home</a>
+        <a href="#projects" class="nav-link text-slate-700 dark:text-white text-sm font-medium hover:text-primary transition-colors">Projects</a>
+        <a href="#certificates" class="nav-link text-slate-700 dark:text-white text-sm font-medium hover:text-primary transition-colors">Certificates</a>
+        <a href="#contact" class="nav-link text-slate-700 dark:text-white text-sm font-medium hover:text-primary transition-colors">Contact</a>
+      </nav>
+      <div class="flex w-28 items-center justify-end gap-2">
+        <button id="themeToggle" class="flex h-12 w-12 cursor-pointer items-center justify-center overflow-hidden rounded-full bg-transparent text-slate-800 dark:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+          <span id="themeIcon" class="material-symbols-outlined text-2xl">dark_mode</span>
+        </button>
+        <button id="mobileMenuBtn" class="md:hidden flex h-12 w-12 cursor-pointer items-center justify-center overflow-hidden rounded-full bg-transparent text-slate-800 dark:text-white">
+          <span class="material-symbols-outlined text-2xl">menu</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden md:hidden fixed inset-0 z-40 bg-background-light dark:bg-background-dark pt-20">
+      <div class="flex flex-col gap-4 p-4">
+        <a href="#home" class="mobile-nav-link text-slate-700 dark:text-white text-lg font-medium py-3 px-4 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">Home</a>
+        <a href="#projects" class="mobile-nav-link text-slate-700 dark:text-white text-lg font-medium py-3 px-4 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">Projects</a>
+        <a href="#certificates" class="mobile-nav-link text-slate-700 dark:text-white text-lg font-medium py-3 px-4 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">Certificates</a>
+        <a href="#contact" class="mobile-nav-link text-slate-700 dark:text-white text-lg font-medium py-3 px-4 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">Contact</a>
+      </div>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="flex flex-1 flex-col items-center justify-center px-4 py-8 min-h-screen">
+      <div class="w-full max-w-md text-center">
+        <h1 class="text-slate-900 dark:text-white text-4xl md:text-5xl font-bold tracking-tight leading-tight" data-i18n="hero.name">Ashrf Atia</h1>
+        <p class="mt-2 text-sm font-semibold uppercase tracking-widest text-primary" data-i18n="hero.tagline">MOBILE ENGINEER • FLUTTER • SAAS</p>
+        <p class="mt-6 text-base font-normal leading-relaxed text-slate-600 dark:text-slate-400" data-i18n="hero.description">
+          Experienced Flutter Mobile Engineer specializing in creating high-performance, scalable enterprise applications. Passionate about building intuitive and efficient mobile solutions for the SaaS industry.
+        </p>
+      </div>
+      <div class="flex justify-center p-4 mt-8">
+        <div class="flex w-full max-w-md flex-col items-stretch gap-3">
+          <a href="#projects" class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-wide hover:bg-primary/90 transition-colors">
+            <span class="truncate" data-i18n="hero.viewProjects">View Projects</span>
+          </a>
+          <a href="./cv-2pages.pdf" target="_blank" class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-slate-200 dark:bg-slate-800 text-slate-900 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors">
+            <span class="truncate" data-i18n="hero.downloadCV">Download CV</span>
+          </a>
+          <a href="#contact" class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-transparent text-slate-900 dark:text-white text-base font-bold leading-normal tracking-wide hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+            <span class="truncate" data-i18n="hero.contact">Contact</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-8 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-slate-900 dark:text-white text-center mb-8" data-i18n="projects.title">Projects</h2>
+        
+        <!-- Year Filters -->
+        <div class="flex justify-center gap-2 mb-8 flex-wrap">
+          <button class="filter-btn active px-4 py-2 rounded-lg bg-primary text-white text-sm font-medium" data-filter="all" data-i18n="projects.all">All</button>
+          <button class="filter-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-white text-sm font-medium hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors" data-filter="2025">2025</button>
+          <button class="filter-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-white text-sm font-medium hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors" data-filter="2024">2024</button>
+          <button class="filter-btn px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-white text-sm font-medium hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors" data-filter="2023">2023</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div id="projectsGrid" class="flex flex-col gap-6">
+          <!-- Projects will be rendered here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-8 px-4 bg-slate-50 dark:bg-slate-900/50">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-slate-900 dark:text-white text-center mb-8" data-i18n="certificates.title">Certificates</h2>
+        
+        <!-- Tabs -->
+        <nav class="flex border-b border-slate-300 dark:border-slate-700 px-4 gap-4 sm:gap-8 justify-center mb-6">
+          <button class="cert-tab active flex flex-1 sm:flex-initial flex-col items-center justify-center border-b-[3px] border-b-primary text-white pb-[13px] pt-4" data-tab="experience">
+            <p class="text-white text-sm font-bold leading-normal tracking-[0.015em]" data-i18n="certificates.experience">Experience</p>
+          </button>
+          <button class="cert-tab flex flex-1 sm:flex-initial flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#959dc6] pb-[13px] pt-4" data-tab="soft-skills">
+            <p class="text-[#959dc6] text-sm font-bold leading-normal tracking-[0.015em]" data-i18n="certificates.softSkills">Soft Skills</p>
+          </button>
+          <button class="cert-tab flex flex-1 sm:flex-initial flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#959dc6] pb-[13px] pt-4" data-tab="technical">
+            <p class="text-[#959dc6] text-sm font-bold leading-normal tracking-[0.015em]" data-i18n="certificates.technical">Technical</p>
+          </button>
+        </nav>
+
+        <!-- Certificates Grid -->
+        <div id="certificatesGrid" class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-4 p-4">
+          <!-- Certificates will be rendered here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-8 px-4">
+      <div class="max-w-2xl mx-auto">
+        <h2 class="text-3xl font-bold text-slate-900 dark:text-white text-center mb-8" data-i18n="contact.title">Contact Information</h2>
+        <div id="contactLinks" class="flex flex-col gap-2">
+          <!-- Contact links will be rendered here -->
+        </div>
+        <div class="mt-8 p-4 pt-8 pb-8">
+          <a href="./cv-2pages.pdf" target="_blank" class="flex w-full items-center justify-center gap-3 rounded-xl bg-primary px-6 py-4 text-base font-bold text-white shadow-lg shadow-primary/30 transition-transform duration-200 ease-in-out hover:scale-[1.02]">
+            <span class="material-symbols-outlined">download</span>
+            <span data-i18n="contact.downloadCV">Download CV</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 px-4 border-t border-slate-200 dark:border-slate-800 mt-auto">
+      <div class="max-w-6xl mx-auto flex justify-between items-center flex-wrap gap-4">
+        <div class="text-slate-600 dark:text-slate-400 text-sm">© <span id="year"></span> Ashrf Atia</div>
+        <div class="flex gap-4">
+          <a href="https://github.com/engashrf100" target="_blank" class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors">GitHub</a>
+          <a href="https://www.linkedin.com/in/ashrf-atia-mostafa-92538a318/" target="_blank" class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Project Detail Modal -->
+  <div id="projectModal" class="hidden fixed inset-0 z-50 overflow-y-auto">
+    <div class="modal-backdrop fixed inset-0 bg-black/50 backdrop-blur-sm" onclick="closeProjectModal()"></div>
+    <div class="relative min-h-screen flex items-center justify-center p-4">
+      <div id="modalContent" class="relative bg-background-light dark:bg-background-dark rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+        <!-- Modal content will be rendered here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/75 backdrop-blur-sm">
+    <button class="absolute top-4 right-4 text-white text-4xl hover:text-gray-300" onclick="closeLightbox()">×</button>
+    <img id="lightboxImg" src="" alt="" class="max-w-[90vw] max-h-[90vh] rounded-lg">
+  </div>
+
+  <script type="module" src="./js/main.js"></script>
 </body>
 </html>
-
