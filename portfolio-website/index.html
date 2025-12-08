@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ashrf Atia - Flutter & Mobile Engineer Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="css/critical.css" as="style">
+  <link rel="stylesheet" href="css/critical.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Ashrf Atia | Portfolio</title>
+</head>
+<body>
+  <noscript>
+    <div class="noscript-warning">This site works best with JavaScript enabled.</div>
+  </noscript>
+
+  <header class="site-header">
+    <div class="logo">AA</div>
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="#hero" data-i18n="nav.home">Home</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#certificates" data-i18n="nav.certificates">Certificates</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button id="langToggle" class="ghost-btn">AR</button>
+      <button id="themeToggle" class="ghost-btn" aria-label="Toggle theme">🌓</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Mobile Engineer • Flutter • SaaS</p>
+        <h1 id="heroTitle"></h1>
+        <p id="heroTagline" class="hero-tagline"></p>
+        <div id="heroActions" class="hero-actions"></div>
+        <div id="heroContacts" class="hero-contacts"></div>
+        <div id="visitorCount" class="visitor-counter" aria-live="polite"></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-glow"></div>
+      </div>
+    </section>
+
+    <section id="overview" class="section">
+      <div class="section-header">
+        <h2 data-i18n="overview.title">What I Do</h2>
+        <p data-i18n="overview.subtitle">Focus areas and strengths</p>
+      </div>
+      <div id="focusCards" class="grid focus-grid"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-header">
+        <h2 data-i18n="projects.title">Projects</h2>
+        <p data-i18n="projects.subtitle">Highlighted Flutter and mobile projects</p>
+      </div>
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all" data-i18n="projects.filters.all">All</button>
+        <button class="filter-btn" data-filter="2025">2025</button>
+        <button class="filter-btn" data-filter="2024">2024</button>
+        <button class="filter-btn" data-filter="2023">2023</button>
+      </div>
+      <div id="projectGrid" class="grid project-grid"></div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="section-header">
+        <h2 data-i18n="certs.title">Certificates</h2>
+        <p data-i18n="certs.subtitle">Experience, soft skills, and technical achievements</p>
+      </div>
+      <div id="certTabs" class="tabs"></div>
+      <div id="certGrid" class="grid cert-grid"></div>
+      <div class="cert-cta">
+        <a class="btn" href="../cv-2pages.pdf" target="_blank" data-i18n="certs.download">Download CV</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p data-i18n="contact.subtitle">Email or WhatsApp</p>
+      </div>
+      <div id="contactLinks" class="contact-links"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Ashrf Atia</div>
+    <div class="footer-links">
+      <a href="https://github.com/engashrf100" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/ashrf-atia-mostafa-92538a318/" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <div id="projectModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true">
+      <button class="modal-close" aria-label="Close">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop"></div>
+    <img id="lightboxImg" alt="Preview">
+    <button class="lightbox-close" aria-label="Close">×</button>
+  </div>
+
+  <script type="module" src="js/main.js" defer></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js').catch(() => {});
+    }
+  </script>
+</body>
+</html>
+

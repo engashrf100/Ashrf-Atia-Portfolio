@@ -1,0 +1,191 @@
+[
+  {
+    "id": "naseh",
+    "name": { "en": "Naseh", "ar": "ناصح" },
+    "year": 2025,
+    "status": "90% (Phase 1)",
+    "market": ["Egypt"],
+    "flags": ["🇪🇬"],
+    "stack": ["Flutter", "Dart", "BLoC", "Clean Architecture", "Custom Charts"],
+    "highlights": [
+      "Glassmorphism design, custom charts (60 FPS, 1000+ points)",
+      "Financial calculators (metals, currency, funds), bilingual RTL/LTR",
+      "Performance tuned with isolates, repaint boundaries"
+    ],
+    "summary": {
+      "en": "Investment channels platform for FRA Egypt with real-time data, custom charts, and bilingual UX.",
+      "ar": "منصة قنوات استثمار للهيئة العامة للرقابة المالية في مصر ببيانات فورية ورسوم مخصصة وتجربة ثنائية اللغة."
+    },
+    "description": {
+      "en": "Enterprise-grade investment platform for FRA Egypt with real-time metals/currency/fund data, custom canvas charts (NasehLineChart), bilingual Arabic/English UX, and performance tuned for 1000+ data points at 60 FPS.",
+      "ar": "منصة استثمار مؤسسية للهيئة المصرية تضم بيانات فورية للمعادن والعملات والصناديق، برسوم مخصصة وأداء 60 إطار/ثانية، وتجربة عربية/إنجليزية ثنائية اللغة."
+    },
+    "links": {
+      "details": "../nase7/README.md",
+      "demo": "https://drive.google.com/file/d/1UjMTOFUn8cb0AVGkVwpmst4aUFwvuJuM/view?usp=share_link"
+    },
+    "logo": "../nase7/assets/images/logo/logo.png",
+    "cover": "../nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.16pm.png",
+    "gallery": [
+      "../nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.16pm.png",
+      "../nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.22pm.png",
+      "../nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.29pm.png"
+    ],
+    "gifs": [
+      "../nase7/assets/demos/gifs/metals.gif",
+      "../nase7/assets/demos/gifs/funds.gif",
+      "../nase7/assets/demos/gifs/currencies.gif"
+    ]
+  },
+  {
+    "id": "nawah",
+    "name": { "en": "Nawah Healthcare", "ar": "نواه هيلث كير" },
+    "year": 2025,
+    "status": "75% (QA)",
+    "market": ["Egypt", "Qatar", "Saudi Arabia"],
+    "flags": ["🇪🇬", "🇶🇦", "🇸🇦"],
+    "stack": ["Flutter", "Dart", "BLoC", "Clean Architecture", "Maps", "Payments"],
+    "highlights": [
+      "Consultations, services booking, branches with Google Maps",
+      "Bilingual Arabic/English, social login, multi-payment",
+      "QA-ready builds with analytics and notifications"
+    ],
+    "summary": {
+      "en": "Healthcare platform for multi-branch clinics across MENA with booking, maps, and bilingual UX.",
+      "ar": "منصة رعاية صحية لعيادات متعددة الفروع في المنطقة مع الحجز والخرائط وتجربة عربية/إنجليزية."
+    },
+    "description": {
+      "en": "Mobile companion for multi-branch medical centers across Egypt, Qatar, and KSA with bookings, Google Maps branch discovery, bilingual UI, notifications, and upcoming social login + multi-payment.",
+      "ar": "تطبيق مرافق للمراكز الطبية متعددة الفروع في مصر وقطر والسعودية، يوفر الحجز، واكتشاف الفروع عبر الخرائط، وتجربة عربية/إنجليزية، وإشعارات، مع دعم قادم لتسجيل الدخول الاجتماعي والمدفوعات المتعددة."
+    },
+    "links": {
+      "details": "../nawah/README.md",
+      "demo": "https://drive.google.com/file/d/1Kdtn28umpEsDeh-1nc50BrNpOLBvRk8u/view?usp=sharing"
+    },
+    "logo": "../nawah/assets/images/logo.png",
+    "cover": "../nawah/assets/images/headers/header-1.png",
+    "gallery": [
+      "../nawah/assets/images/headers/header-1.png",
+      "../nawah/assets/images/headers/header-2.png",
+      "../nawah/assets/images/headers/header-3.png"
+    ],
+    "gifs": [
+      "../nawah/assets/demos/gifs/auth.gif",
+      "../nawah/assets/demos/gifs/onboarding.gif",
+      "../nawah/assets/demos/gifs/services.gif"
+    ]
+  },
+  {
+    "id": "syaratc",
+    "name": { "en": "Syaratc Online", "ar": "سيراتك أونلاين" },
+    "year": 2024,
+    "status": "Production",
+    "market": ["Saudi Arabia"],
+    "flags": ["🇸🇦"],
+    "stack": ["Flutter", "Dart", "BLoC", "Hive", "Clean Architecture"],
+    "highlights": [
+      "Car marketplace & financing, Arabic-first with English support",
+      "Offline-first storage, background token refresh",
+      "Onboarding game, push notifications, sliver-powered lists"
+    ],
+    "summary": {
+      "en": "Car marketplace and financing companion with bilingual experience and offline-first design.",
+      "ar": "منصة لعرض السيارات وتمويلها بتجربة عربية/إنجليزية وتخزين دون اتصال."
+    },
+    "description": {
+      "en": "Car marketplace and financing companion for Saudi Arabia with Arabic-first UX, offline-first storage (Hive), push notifications, onboarding mini-game, and clean architecture.",
+      "ar": "منصة سيارات وتمويل للمملكة العربية السعودية بتجربة عربية أولاً، تخزين دون اتصال (Hive)، إشعارات، ولعبة تعريفية، مع هيكلية نظيفة."
+    },
+    "links": {
+      "details": "../syaratc/README.md",
+      "demo": "https://drive.google.com/file/d/1nF3FgbEGtSoubXAKsBPIOG4G5JTtZlUg/view?usp=sharing",
+      "website": "https://syaratc.online/en",
+      "play": "https://play.google.com/store/apps/details?id=com.syatric.app"
+    },
+    "logo": "../syaratc/assets/images/app_icon.jpg",
+    "cover": "../syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.04-pm.png",
+    "gallery": [
+      "../syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.04-pm.png",
+      "../syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.16-pm.png",
+      "../syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.31-pm.png"
+    ],
+    "gifs": [
+      "../syaratc/assets/demos/home.gif",
+      "../syaratc/assets/demos/offers.gif",
+      "../syaratc/assets/demos/onboarding-auth.gif"
+    ]
+  },
+  {
+    "id": "egg-pos",
+    "name": { "en": "Egg POS", "ar": "نظام نقاط بيع البيض" },
+    "year": 2024,
+    "status": "Production",
+    "market": ["Egypt"],
+    "flags": ["🇪🇬"],
+    "stack": ["Flutter", "Riverpod", "Supabase", "MVVM"],
+    "highlights": [
+      "Tablet-first POS for seniors, RTL Arabic-first UX",
+      "FIFO inventory tracking, multi-tenant SaaS-ready",
+      "Supabase backend with role-based auth"
+    ],
+    "summary": {
+      "en": "Mini SaaS POS system for micro-retail egg branches with RTL-first tablet UX.",
+      "ar": "نظام نقاط بيع مصغر لفروع بيع البيض مع تجربة جهاز لوحي عربية من اليمين لليسار."
+    },
+    "description": {
+      "en": "Tablet-first POS mini SaaS for micro egg branches with RTL Arabic-first UX, FIFO inventory, Supabase multi-tenant backend, and role-based auth tailored for senior operators.",
+      "ar": "نظام نقاط بيع لوحي (مينى SaaS) لفروع بيع البيض بتجربة عربية من اليمين لليسار، وجرد FIFO، وواجهة خلفية متعددة المستأجرين عبر Supabase مع صلاحيات أدوار."
+    },
+    "links": {
+      "details": "../egg_pos/README.md",
+      "demo": "https://drive.google.com/file/d/1xh0cbbUBMyYCcYJznF7djC7QncPhVoNN/view?usp=sharing"
+    },
+    "logo": "../egg_pos/screens/Screenshot%202025-11-24%20at%202.29.51%E2%80%AFPM.png",
+    "cover": "../egg_pos/screens/Screenshot%202025-11-24%20at%202.29.55%E2%80%AFPM.png",
+    "gallery": [
+      "../egg_pos/screens/Screenshot%202025-11-24%20at%202.29.55%E2%80%AFPM.png",
+      "../egg_pos/screens/Screenshot%202025-11-24%20at%202.30.07%E2%80%AFPM.png",
+      "../egg_pos/screens/Screenshot%202025-11-24%20at%202.30.26%E2%80%AFPM.png"
+    ],
+    "gifs": []
+  },
+  {
+    "id": "enterpot",
+    "name": { "en": "Enterpot", "ar": "إنتربوت" },
+    "year": 2023,
+    "status": "Production",
+    "market": ["Saudi Arabia"],
+    "flags": ["🇸🇦"],
+    "stack": [".NET", "Flutter", "GetX", "SQLite", "Google Maps"],
+    "highlights": [
+      "B2B wholesale e-commerce with client & delivery apps",
+      "Offline cart via SQLite, ClickPay payments",
+      "Real-time tracking with Google Maps"
+    ],
+    "summary": {
+      "en": "B2B wholesale platform for food products with dual user flows and robust offline support.",
+      "ar": "منصة تجارة جملة للمواد الغذائية مع مسارين للمستخدمين ودعم قوي دون اتصال."
+    },
+    "description": {
+      "en": "Production B2B wholesale platform for KSA with dual flows (clients & delivery), offline cart (SQLite), ClickPay payments, and Google Maps tracking, built with Flutter + .NET backend.",
+      "ar": "منصة جملة إنتاجية في السعودية بمسارين (العملاء والتوصيل)، سلة دون اتصال (SQLite)، مدفوعات ClickPay، وتتبع خرائط Google، مبنية بفلاتر و .NET."
+    },
+    "links": {
+      "details": "../enterpot/README.md",
+      "demo": "https://drive.google.com/file/d/1RCW1TXXOjuq6XVyr-lq9S-q4uxo72rmF/view?usp=sharing",
+      "play": "https://play.google.com/store/apps/details?id=com.newenterpot.app",
+      "appStore": "https://apps.apple.com/app/id6451003683"
+    },
+    "logo": "../enterpot/assets/images/logo/logo.png",
+    "cover": "../enterpot/assets/images/screenshots/screenshot-1.png",
+    "gallery": [
+      "../enterpot/assets/images/screenshots/screenshot-1.png",
+      "../enterpot/assets/images/screenshots/screenshot-2.png",
+      "../enterpot/assets/images/screenshots/screenshot-3.png"
+    ],
+    "gifs": [
+      "../enterpot/assets/demos/gifs/demo.gif"
+    ]
+  }
+]
+

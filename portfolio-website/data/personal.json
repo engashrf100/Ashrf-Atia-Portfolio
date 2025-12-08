@@ -1,0 +1,43 @@
+{
+  "name": "Ashrf Atia",
+  "title": {
+    "en": "Flutter & Mobile Engineer",
+    "ar": "مهندس تطبيقات موبايل (فلاتر)"
+  },
+  "tagline": {
+    "en": "Building production-grade Flutter apps, SaaS platforms, and bilingual experiences.",
+    "ar": "أبني تطبيقات فلاتر جاهزة للإنتاج ومنصات SaaS وتجارب ثنائية اللغة."
+  },
+  "heroActions": [
+    { "id": "cv", "label": { "en": "Download CV", "ar": "تحميل السيرة الذاتية" }, "href": "../cv-2pages.pdf", "type": "primary" },
+    { "id": "certificates", "label": { "en": "Certificates", "ar": "الشهادات" }, "href": "../certificates/README.md", "type": "secondary" },
+    { "id": "linkedin", "label": { "en": "LinkedIn", "ar": "لينكدإن" }, "href": "https://www.linkedin.com/in/ashrf-atia-mostafa-92538a318/", "type": "ghost" }
+  ],
+  "contacts": [
+    { "type": "email", "label": "eng.ashrf100@gmail.com", "href": "mailto:eng.ashrf100@gmail.com" },
+    { "type": "phone", "label": "+20 128 720 0535", "href": "tel:+201287200535" },
+    { "type": "whatsapp", "label": "+20 128 720 0535", "href": "https://wa.me/201287200535" }
+  ],
+  "focusAreas": [
+    {
+      "id": "mobile",
+      "title": { "en": "Mobile Development", "ar": "تطوير الموبايل" },
+      "desc": { "en": "Production-ready Flutter apps with clean architecture and performance focus.", "ar": "تطبيقات فلاتر جاهزة للإنتاج بهندسة نظيفة وتركيز على الأداء." }
+    },
+    {
+      "id": "data",
+      "title": { "en": "Data & Analytics", "ar": "البيانات والتحليلات" },
+      "desc": { "en": "Data-driven insights, dashboards, and interactive visualizations.", "ar": "تحليلات ولوحات بيانات وتصورات تفاعلية معتمدة على البيانات." }
+    },
+    {
+      "id": "support",
+      "title": { "en": "Technical Support", "ar": "الدعم التقني" },
+      "desc": { "en": "Consulting, maintenance, and optimization for shipped products.", "ar": "استشارات وصيانة وتحسين للمنتجات المنشورة." }
+    }
+  ],
+  "analytics": {
+    "counterNamespace": "ashrf-portfolio",
+    "counterKey": "visitors"
+  }
+}
+
