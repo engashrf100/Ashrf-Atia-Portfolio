@@ -9,7 +9,7 @@
       "title": { "en": "Certificate of Service & Employment Capacity", "ar": "شهادة خدمة وكفاءة" },
       "issuer": "Smart Digital Services",
       "duration": "21 Jul 2014 – 25 May 2025",
-      "image": "../certificates/experience/smart-digital-services-employment-certificate-2014-2025.jpeg"
+      "image": "./certificates/experience/smart-digital-services-employment-certificate-2014-2025.jpeg"
     }
   ],
   "soft-skills": [
@@ -17,19 +17,19 @@
       "title": { "en": "Outstanding Customer Service Workshop", "ar": "ورشة خدمة عملاء متميزة" },
       "issuer": "Smart Digital Services",
       "date": "08–09 Mar 2023",
-      "image": "../certificates/soft-skills/outstanding-customer-service-workshop-2023.jpeg"
+      "image": "./certificates/soft-skills/outstanding-customer-service-workshop-2023.jpeg"
     },
     {
       "title": { "en": "Stress Management Workshop", "ar": "ورشة إدارة الضغوط" },
       "issuer": "Smart Digital Services",
       "date": "13 Jan 2025",
-      "image": "../certificates/soft-skills/stress-management-workshop-2025.jpeg"
+      "image": "./certificates/soft-skills/stress-management-workshop-2025.jpeg"
     },
     {
       "title": { "en": "Time Management Workshop", "ar": "ورشة إدارة الوقت" },
       "issuer": "Smart Digital Services",
       "date": "14 Apr 2024",
-      "image": "../certificates/soft-skills/time-management-workshop-2024.jpeg"
+      "image": "./certificates/soft-skills/time-management-workshop-2024.jpeg"
     }
   ],
   "technical": [
@@ -37,19 +37,19 @@
       "title": { "en": "CCNA", "ar": "CCNA" },
       "issuer": "Cisco Systems",
       "date": "05 Feb 2013",
-      "image": "../certificates/technical/CCNA.jpg"
+      "image": "./certificates/technical/CCNA.jpg"
     },
     {
       "title": { "en": "Certified Ethical Hacker (CEH)", "ar": "CEH" },
       "issuer": "EC-Council",
       "date": "08 Apr 2014",
-      "image": "../certificates/technical/CEH.jpg"
+      "image": "./certificates/technical/CEH.jpg"
     },
     {
       "title": { "en": "MCSA – Windows Server 2012", "ar": "MCSA" },
       "issuer": "Microsoft",
       "date": "20 Feb 2014",
-      "image": "../certificates/technical/MCSA.jpg"
+      "image": "./certificates/technical/MCSA.jpg"
     }
   ]
 }

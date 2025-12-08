@@ -9,8 +9,8 @@
     "ar": "أبني تطبيقات فلاتر جاهزة للإنتاج ومنصات SaaS وتجارب ثنائية اللغة."
   },
   "heroActions": [
-    { "id": "cv", "label": { "en": "Download CV", "ar": "تحميل السيرة الذاتية" }, "href": "../cv-2pages.pdf", "type": "primary" },
-    { "id": "certificates", "label": { "en": "Certificates", "ar": "الشهادات" }, "href": "../certificates/README.md", "type": "secondary" },
+    { "id": "cv", "label": { "en": "Download CV", "ar": "تحميل السيرة الذاتية" }, "href": "./cv-2pages.pdf", "type": "primary" },
+    { "id": "certificates", "label": { "en": "Certificates", "ar": "الشهادات" }, "href": "./certificates/README.md", "type": "secondary" },
     { "id": "linkedin", "label": { "en": "LinkedIn", "ar": "لينكدإن" }, "href": "https://www.linkedin.com/in/ashrf-atia-mostafa-92538a318/", "type": "ghost" }
   ],
   "contacts": [

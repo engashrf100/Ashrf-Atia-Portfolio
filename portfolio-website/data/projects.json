@@ -21,20 +21,20 @@
       "ar": "منصة استثمار مؤسسية للهيئة المصرية تضم بيانات فورية للمعادن والعملات والصناديق، برسوم مخصصة وأداء 60 إطار/ثانية، وتجربة عربية/إنجليزية ثنائية اللغة."
     },
     "links": {
-      "details": "../nase7/README.md",
+      "details": "./nase7/README.md",
       "demo": "https://drive.google.com/file/d/1UjMTOFUn8cb0AVGkVwpmst4aUFwvuJuM/view?usp=share_link"
     },
-    "logo": "../nase7/assets/images/logo/logo.png",
-    "cover": "../nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.16pm.png",
+    "logo": "./nase7/assets/images/logo/logo.png",
+    "cover": "./nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.16pm.png",
     "gallery": [
-      "../nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.16pm.png",
-      "../nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.22pm.png",
-      "../nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.29pm.png"
+      "./nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.16pm.png",
+      "./nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.22pm.png",
+      "./nase7/assets/images/screenshots/screenshot-2025-11-23-1.12.29pm.png"
     ],
     "gifs": [
-      "../nase7/assets/demos/gifs/metals.gif",
-      "../nase7/assets/demos/gifs/funds.gif",
-      "../nase7/assets/demos/gifs/currencies.gif"
+      "./nase7/assets/demos/gifs/metals.gif",
+      "./nase7/assets/demos/gifs/funds.gif",
+      "./nase7/assets/demos/gifs/currencies.gif"
     ]
   },
   {
@@ -59,20 +59,20 @@
       "ar": "تطبيق مرافق للمراكز الطبية متعددة الفروع في مصر وقطر والسعودية، يوفر الحجز، واكتشاف الفروع عبر الخرائط، وتجربة عربية/إنجليزية، وإشعارات، مع دعم قادم لتسجيل الدخول الاجتماعي والمدفوعات المتعددة."
     },
     "links": {
-      "details": "../nawah/README.md",
+      "details": "./nawah/README.md",
       "demo": "https://drive.google.com/file/d/1Kdtn28umpEsDeh-1nc50BrNpOLBvRk8u/view?usp=sharing"
     },
-    "logo": "../nawah/assets/images/logo.png",
-    "cover": "../nawah/assets/images/headers/header-1.png",
+    "logo": "./nawah/assets/images/logo.png",
+    "cover": "./nawah/assets/images/headers/header-1.png",
     "gallery": [
-      "../nawah/assets/images/headers/header-1.png",
-      "../nawah/assets/images/headers/header-2.png",
-      "../nawah/assets/images/headers/header-3.png"
+      "./nawah/assets/images/headers/header-1.png",
+      "./nawah/assets/images/headers/header-2.png",
+      "./nawah/assets/images/headers/header-3.png"
     ],
     "gifs": [
-      "../nawah/assets/demos/gifs/auth.gif",
-      "../nawah/assets/demos/gifs/onboarding.gif",
-      "../nawah/assets/demos/gifs/services.gif"
+      "./nawah/assets/demos/gifs/auth.gif",
+      "./nawah/assets/demos/gifs/onboarding.gif",
+      "./nawah/assets/demos/gifs/services.gif"
     ]
   },
   {
@@ -97,22 +97,22 @@
       "ar": "منصة سيارات وتمويل للمملكة العربية السعودية بتجربة عربية أولاً، تخزين دون اتصال (Hive)، إشعارات، ولعبة تعريفية، مع هيكلية نظيفة."
     },
     "links": {
-      "details": "../syaratc/README.md",
+      "details": "./syaratc/README.md",
       "demo": "https://drive.google.com/file/d/1nF3FgbEGtSoubXAKsBPIOG4G5JTtZlUg/view?usp=sharing",
       "website": "https://syaratc.online/en",
       "play": "https://play.google.com/store/apps/details?id=com.syatric.app"
     },
-    "logo": "../syaratc/assets/images/app_icon.jpg",
-    "cover": "../syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.04-pm.png",
+    "logo": "./syaratc/assets/images/app_icon.jpg",
+    "cover": "./syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.04-pm.png",
     "gallery": [
-      "../syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.04-pm.png",
-      "../syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.16-pm.png",
-      "../syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.31-pm.png"
+      "./syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.04-pm.png",
+      "./syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.16-pm.png",
+      "./syaratc/assets/images/screenshots/screenshot-2025-10-30-3.34.31-pm.png"
     ],
     "gifs": [
-      "../syaratc/assets/demos/home.gif",
-      "../syaratc/assets/demos/offers.gif",
-      "../syaratc/assets/demos/onboarding-auth.gif"
+      "./syaratc/assets/demos/home.gif",
+      "./syaratc/assets/demos/offers.gif",
+      "./syaratc/assets/demos/onboarding-auth.gif"
     ]
   },
   {
@@ -137,15 +137,15 @@
       "ar": "نظام نقاط بيع لوحي (مينى SaaS) لفروع بيع البيض بتجربة عربية من اليمين لليسار، وجرد FIFO، وواجهة خلفية متعددة المستأجرين عبر Supabase مع صلاحيات أدوار."
     },
     "links": {
-      "details": "../egg_pos/README.md",
+      "details": "./egg_pos/README.md",
       "demo": "https://drive.google.com/file/d/1xh0cbbUBMyYCcYJznF7djC7QncPhVoNN/view?usp=sharing"
     },
-    "logo": "../egg_pos/screens/Screenshot%202025-11-24%20at%202.29.51%E2%80%AFPM.png",
-    "cover": "../egg_pos/screens/Screenshot%202025-11-24%20at%202.29.55%E2%80%AFPM.png",
+    "logo": "./egg_pos/screens/Screenshot%202025-11-24%20at%202.29.51%E2%80%AFPM.png",
+    "cover": "./egg_pos/screens/Screenshot%202025-11-24%20at%202.29.55%E2%80%AFPM.png",
     "gallery": [
-      "../egg_pos/screens/Screenshot%202025-11-24%20at%202.29.55%E2%80%AFPM.png",
-      "../egg_pos/screens/Screenshot%202025-11-24%20at%202.30.07%E2%80%AFPM.png",
-      "../egg_pos/screens/Screenshot%202025-11-24%20at%202.30.26%E2%80%AFPM.png"
+      "./egg_pos/screens/Screenshot%202025-11-24%20at%202.29.55%E2%80%AFPM.png",
+      "./egg_pos/screens/Screenshot%202025-11-24%20at%202.30.07%E2%80%AFPM.png",
+      "./egg_pos/screens/Screenshot%202025-11-24%20at%202.30.26%E2%80%AFPM.png"
     ],
     "gifs": []
   },
@@ -171,20 +171,20 @@
       "ar": "منصة جملة إنتاجية في السعودية بمسارين (العملاء والتوصيل)، سلة دون اتصال (SQLite)، مدفوعات ClickPay، وتتبع خرائط Google، مبنية بفلاتر و .NET."
     },
     "links": {
-      "details": "../enterpot/README.md",
+      "details": "./enterpot/README.md",
       "demo": "https://drive.google.com/file/d/1RCW1TXXOjuq6XVyr-lq9S-q4uxo72rmF/view?usp=sharing",
       "play": "https://play.google.com/store/apps/details?id=com.newenterpot.app",
       "appStore": "https://apps.apple.com/app/id6451003683"
     },
-    "logo": "../enterpot/assets/images/logo/logo.png",
-    "cover": "../enterpot/assets/images/screenshots/screenshot-1.png",
+    "logo": "./enterpot/assets/images/logo/logo.png",
+    "cover": "./enterpot/assets/images/screenshots/screenshot-1.png",
     "gallery": [
-      "../enterpot/assets/images/screenshots/screenshot-1.png",
-      "../enterpot/assets/images/screenshots/screenshot-2.png",
-      "../enterpot/assets/images/screenshots/screenshot-3.png"
+      "./enterpot/assets/images/screenshots/screenshot-1.png",
+      "./enterpot/assets/images/screenshots/screenshot-2.png",
+      "./enterpot/assets/images/screenshots/screenshot-3.png"
     ],
     "gifs": [
-      "../enterpot/assets/demos/gifs/demo.gif"
+      "./enterpot/assets/demos/gifs/demo.gif"
     ]
   }
 ]
