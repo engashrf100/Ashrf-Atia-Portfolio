@@ -16,6 +16,8 @@
     <a href="https://play.google.com/store/apps/details?id=com.syatric.app">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" height="50">
     </a>
+    <br>
+    <br>
     <a href="https://syaratc.online/en">
       <img src="https://img.shields.io/badge/Website-syaratc.online-blue?style=for-the-badge&logo=google-chrome&logoColor=white" height="50">
     </a>
