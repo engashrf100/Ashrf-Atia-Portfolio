@@ -38,3 +38,9 @@ pubspec.lock
 *.log
 
 
+
+# CV Artifacts
+*.pdf
+*.html
+
+

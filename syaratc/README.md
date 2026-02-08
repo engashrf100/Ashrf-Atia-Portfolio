@@ -12,10 +12,16 @@
     <strong>Market:</strong> Saudi Arabia 🇸🇦 — Arabic & English experience
   </p>
 
-  <p>
-    <a href="https://syaratc.online/en"><img alt="Website" src="https://img.shields.io/badge/Website-syaratc.online-success?logo=google-chrome&logoColor=white"></a>
-    <a href="https://play.google.com/store/apps/details?id=com.syatric.app"><img alt="Google Play" src="https://img.shields.io/badge/Google%20Play-com.syatric.app-3DDC84?logo=google-play&logoColor=white"></a>
-    <a href="https://drive.google.com/file/d/1nF3FgbEGtSoubXAKsBPIOG4G5JTtZlUg/view?usp=sharing"><img alt="Demo Video" src="https://img.shields.io/badge/Demo-Video-blue?logo=google-drive&logoColor=white"></a>
+  <p align="center">
+    <a href="https://play.google.com/store/apps/details?id=com.syatric.app">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" height="50">
+    </a>
+    <a href="https://syaratc.online/en">
+      <img src="https://img.shields.io/badge/Website-syaratc.online-blue?style=for-the-badge&logo=google-chrome&logoColor=white" height="50">
+    </a>
+    <a href="https://drive.google.com/file/d/1nF3FgbEGtSoubXAKsBPIOG4G5JTtZlUg/view?usp=sharing">
+      <img src="https://img.shields.io/badge/Watch_Demo-Video-red?style=for-the-badge&logo=youtube&logoColor=white" height="50">
+    </a>
   </p>
 
 </div>
@@ -137,9 +143,13 @@ lib/
 ### Form & Drawer
 <img src="assets/demos/form-and-drawer.gif" alt="Form & Drawer demo" width="360" />
 
-Full video is also available on Google Drive:
+## 🎥 Full Demo
 
-- [Watch full demo](https://drive.google.com/file/d/1nF3FgbEGtSoubXAKsBPIOG4G5JTtZlUg/view?usp=sharing)
+<div align="center">
+  <a href="https://drive.google.com/file/d/1nF3FgbEGtSoubXAKsBPIOG4G5JTtZlUg/view?usp=sharing">
+    <img src="https://img.shields.io/badge/▶_Watch_Full_Video_Walkthrough-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="60" />
+  </a>
+</div>
 
 ## Contact
 
