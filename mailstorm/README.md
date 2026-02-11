@@ -38,15 +38,12 @@
 
 ## 📖 Overview
 
-### English
-MailStorm is a **Flutter-based bulk email application** designed for job seekers. It allows users to send personalized job application emails to hundreds of companies simultaneously. The app features **multi-provider OAuth authentication** (Gmail, Outlook), **AI-powered email generation**, and a **rich text editor** for professional emails.
+### Global Support
+MailStorm is a **Flutter-based bulk email application** designed for job seekers worldwide. It allows users to send personalized job application emails to hundreds of companies simultaneously. The app features **multi-provider OAuth authentication** (Gmail, Outlook), **AI-powered email generation**, and a **rich text editor** for professional emails.
 
 **Current Status:** 99% complete. Currently in **Google Console Closed Testing**. The app is designed for Google Ads (AdMob) integration but is currently free for testing. Focus involves UI/UX refinements to enhance user understanding.
 
-### العربية
-MailStorm هو تطبيق بريد إلكتروني جماعي مبني على Flutter مصمم للباحثين عن عمل. يتيح للمستخدمين إرسال رسائل بريد إلكتروني مخصصة لطلبات التوظيف إلى مئات الشركات في وقت واحد. يتميز التطبيق بالمصادقة متعددة المزودين (Gmail, Outlook)، وتوليد البريد الإلكتروني بالذكاء الاصطناعي، ومحرر نصوص غني للرسائل الاحترافية.
-
-**الحالة الحالية:** مكتمل بنسبة ٩٩٪. حالياً في **اختبار مغلق على Google Console**. تم تصميم التطبيق لدمج إعلانات Google ولكنه مجاني حالياً للاختبار. التركيز الحالي على تحسين واجهة المستخدم لتوضيح الفكرة.
+**Language Support:** 🌍 Fully localized in **10 Languages** (English, Arabic, French, German, Spanish, etc.) to serve a global user base.
 
 ---
 
@@ -64,9 +61,9 @@ MailStorm هو تطبيق بريد إلكتروني جماعي مبني على F
 | Email Sending | mailer + Microsoft Graph API | SMTP for Gmail, REST API for Outlook |
 | Rich Text Editor | flutter_quill | Delta-based document model |
 | Animations | flutter_animate + Lottie | Smooth UI transitions |
-| Localization | easy_localization | English & Arabic RTL support |
+| Localization | easy_localization | Support for 10+ Languages (RTL/LTR) |
 | In-App Purchases | in_app_purchase | Premium subscription system |
-| Architecture | Feature-first + Middleware Pattern | Clean separation of concerns |
+| Architecture | Feature-first Clean Architecture | Clean separation of concerns |
 
 ---
 
@@ -78,14 +75,10 @@ One of the key technical challenges was implementing **multi-provider OAuth** wi
 
 ## 🏗 Architecture
 
-```
+```text
 lib/
 ├── core/
-│   ├── middleware/          # 14 middleware files for validation & processing
-│   │   ├── email_body_middleware.dart
-│   │   ├── email_validation_middleware.dart
-│   │   ├── csv_import_middleware.dart
-│   │   └── ...
+│   ├── middleware/          # Validation & processing logic
 │   ├── constants/
 │   └── widgets/
 ├── features/
@@ -103,12 +96,6 @@ lib/
 └── main.dart
 ```
 
-### Middleware Pattern
-The app uses a **middleware pattern** for validation and data processing:
-- `MiddlewareResult<T>` - Generic result type with success/failure states
-- Chain of responsibility for email validation
-- Reusable across features
-
 ---
 
 ## ✨ Key Features
@@ -117,9 +104,9 @@ The app uses a **middleware pattern** for validation and data processing:
 - **🤖 AI Email Generation** - Personalized subject lines and body content
 - **📝 Rich Text Editor** - Professional email formatting with flutter_quill
 - **📊 CSV Import** - Bulk import companies from spreadsheets
-- **🌐 Bilingual Support** - English & Arabic with RTL layout
+- **🌍 Global Localization** - Full support for **10 Languages**
 - **💎 Premium System** - Subscription-based unlimited sending
-- **� Activity Tracker** - Track success rates and daily application volume.
+- **📈 Activity Tracker** - Track success rates and daily application volume.
 - **🔐 Secure Sharing** - Share encrypted `.mailstorm` company lists.
 
 ---
@@ -158,7 +145,7 @@ The app features a detailed **Activity Tracker** screen that visualizes:
 ## 📱 Onboarding Experience
 
 The app features a comprehensive onboarding flow to guide new users:
-1.  **Language Selection:** English or Arabic.
+1.  **Language Selection:** Choose from 10 supported languages.
 2.  **User Profile:** Input name, job title, and skills (used by AI).
 3.  **Template Setup:** Create the default "Core" email template.
 4.  **Provider Connection:** Securely connect Gmail/Outlook accounts.
@@ -209,7 +196,7 @@ The app features a comprehensive onboarding flow to guide new users:
 - [x] Rich text email editor
 - [x] CSV company import
 - [x] Premium subscription system
-- [x] Bilingual support (EN/AR)
+- [x] **10 Languages Support**
 - [x] Deep link integration
 - [x] Secure file sharing
 - [x] Hybrid AI Implementation
@@ -232,12 +219,21 @@ The app features a comprehensive onboarding flow to guide new users:
 ## 📬 Contact
 
 <div align="center">
+  
   <a href="mailto:eng.ashrf100@gmail.com?subject=MailStorm%20Inquiry">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" height="40">
+    <img src="https://img.shields.io/badge/Email-eng.ashrf100%40gmail.com-red?style=for-the-badge&logo=gmail" height="40" />
   </a>
+  <br>
+  
   <a href="https://linkedin.com/in/ashrf-atia">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" height="40">
+    <img src="https://img.shields.io/badge/LinkedIn-Ashrf%20Atia-blue?style=for-the-badge&logo=linkedin" height="40" />
   </a>
+  <br>
+
+  <a href="https://wa.me/201287200535">
+    <img src="https://img.shields.io/badge/WhatsApp-%2B20%20128%20720%200535-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="40" />
+  </a>
+
 </div>
 
 ---

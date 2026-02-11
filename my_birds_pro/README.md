@@ -24,9 +24,14 @@
 
 <div align="center">
   <a href="mailto:eng.ashrf100@gmail.com?subject=My%20Birds%20Pro%20Inquiry">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" height="40">
+    <img src="https://img.shields.io/badge/Email-eng.ashrf100%40gmail.com-red?style=for-the-badge&logo=gmail" height="40">
   </a>
+  <br>
   <a href="https://linkedin.com/in/ashrf-atia">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" height="40">
+    <img src="https://img.shields.io/badge/LinkedIn-Ashrf%20Atia-blue?style=for-the-badge&logo=linkedin" height="40">
+  </a>
+  <br>
+  <a href="https://wa.me/201287200535">
+    <img src="https://img.shields.io/badge/WhatsApp-%2B20%20128%20720%200535-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="40" />
   </a>
 </div>
