@@ -225,7 +225,7 @@ The app features a comprehensive onboarding flow to guide new users:
   </a>
   <br>
   
-  <a href="https://linkedin.com/in/ashrf-atia">
+  <a href="https://www.linkedin.com/in/ashrf-atia-mostafa-92538a318/">
     <img src="https://img.shields.io/badge/LinkedIn-Ashrf%20Atia-blue?style=for-the-badge&logo=linkedin" height="40" />
   </a>
   <br>

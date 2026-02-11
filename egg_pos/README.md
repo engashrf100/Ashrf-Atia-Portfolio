@@ -3,26 +3,24 @@
   <h1>Egg POS</h1>
 
   <p>
-    Mini SaaS POS system for egg selling branches — tablet-based inventory and business management solution.
+    <strong>Mini SaaS POS System for Egg Retailers</strong><br>
+    Tablet-based inventory and business management solution optimized for non-technical staff.
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Flutter-3.0+-02569B?logo=flutter&logoColor=white" alt="Flutter" />
-    <img src="https://img.shields.io/badge/Dart-3.0+-0175C2?logo=dart&logoColor=white" alt="Dart" />
-    <img src="https://img.shields.io/badge/Platform-Tablet-lightgrey" alt="Platform" />
-    <img src="https://img.shields.io/badge/State-Riverpod-orange" alt="State" />
-    <img src="https://img.shields.io/badge/Backend-Supabase-green" alt="Backend" />
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/Status-Production-success?style=for-the-badge" alt="Status" />
-    <img src="https://img.shields.io/badge/Type-Freelance-blue?style=for-the-badge" alt="Type" />
+    <strong>Market:</strong> Micro-retail egg branches
   </p>
 
   <p>
     <a href="https://drive.google.com/file/d/1xh0cbbUBMyYCcYJznF7djC7QncPhVoNN/view?usp=sharing" target="_blank">
-      <img src="https://img.shields.io/badge/🎬%20Watch%20Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo" />
+      <img src="https://img.shields.io/badge/Watch_Demo-Video-red?style=for-the-badge&logo=youtube&logoColor=white" height="50" />
     </a>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Status-Production-success?style=flat-square" />
+    <img src="https://img.shields.io/badge/Platform-Tablet_Only-lightgrey?style=flat-square" />
+    <img src="https://img.shields.io/badge/Backend-Supabase-green?style=flat-square" />
   </p>
 
 </div>
@@ -198,8 +196,19 @@ lib/
 
 ## Contact
 
-- **Email**: <a href="mailto:eng.ashrf100@gmail.com?subject=Egg%20POS%20Inquiry">eng.ashrf100@gmail.com</a>
-- **WhatsApp / Phone**: <a href="https://wa.me/201287200535" target="_blank">+20 128 720 0535</a>
+<div align="center">
+  <a href="mailto:eng.ashrf100@gmail.com?subject=Egg%20POS%20Inquiry">
+    <img src="https://img.shields.io/badge/Email-eng.ashrf100%40gmail.com-red?style=for-the-badge&logo=gmail" height="40">
+  </a>
+  <br>
+  <a href="https://linkedin.com/in/ashrf-atia">
+    <img src="https://img.shields.io/badge/LinkedIn-Ashrf%20Atia-blue?style=for-the-badge&logo=linkedin" height="40">
+  </a>
+  <br>
+  <a href="https://wa.me/201287200535">
+    <img src="https://img.shields.io/badge/WhatsApp-%2B20%20128%20720%200535-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="40" />
+  </a>
+</div>
 
 ---
 

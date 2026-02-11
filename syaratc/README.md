@@ -5,14 +5,15 @@
   <h1>Syaratc Online</h1>
 
   <p>
-    Find, finance, and manage cars with a modern, high‑performance Flutter app powered by clean architecture.
+    <strong>Find, Finance, and Manage Cars</strong><br>
+    A modern, high-performance Flutter app powered by clean architecture.
   </p>
 
   <p>
     <strong>Market:</strong> Saudi Arabia 🇸🇦 — Arabic & English experience
   </p>
 
-  <p align="center">
+  <p>
     <a href="https://play.google.com/store/apps/details?id=com.syatric.app">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" height="50">
     </a>
@@ -155,9 +156,19 @@ lib/
 
 ## Contact
 
-- Email: <a href="mailto:eng.ashrf100@gmail.com?subject=Syaratc%20Online%20Inquiry">eng.ashrf100@gmail.com</a>
-- WhatsApp: <a href="https://wa.me/201287200535" target="_blank">Chat on WhatsApp</a>
-- Phone: <a href="tel:+201287200535">+20 128 720 0535</a>
+<div align="center">
+  <a href="mailto:eng.ashrf100@gmail.com?subject=Syaratc%20Online%20Inquiry">
+    <img src="https://img.shields.io/badge/Email-eng.ashrf100%40gmail.com-red?style=for-the-badge&logo=gmail" height="40">
+  </a>
+  <br>
+  <a href="https://linkedin.com/in/ashrf-atia">
+    <img src="https://img.shields.io/badge/LinkedIn-Ashrf%20Atia-blue?style=for-the-badge&logo=linkedin" height="40">
+  </a>
+  <br>
+  <a href="https://wa.me/201287200535">
+    <img src="https://img.shields.io/badge/WhatsApp-%2B20%20128%20720%200535-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="40" />
+  </a>
+</div>
 
 <!-- Suggestions and questions intentionally kept out of README for brevity and professionalism. -->
 

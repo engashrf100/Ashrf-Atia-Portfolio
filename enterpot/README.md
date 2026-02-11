@@ -2,32 +2,36 @@
 
   <img src="assets/images/logo/logo.png" alt="Enterpot" width="140" height="140" />
 
-  <p>
-    <a href="https://play.google.com/store/apps/details?id=com.newenterpot.app" target="_blank">
-      <img alt="Get it on Google Play" src="https://img.shields.io/badge/Get%20it%20on-Google%20Play-3DDC84?style=for-the-badge&logo=google-play&logoColor=white" height="60" />
-    </a>
-    <a href="https://apps.apple.com/app/id6451003683" target="_blank">
-      <img alt="Download on the App Store" src="https://img.shields.io/badge/Download%20on-the%20App%20Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" height="60" />
-    </a>
-  </p>
-
   <h1>Enterpot</h1>
 
   <p>
-    B2B wholesale food products e-commerce platform connecting suppliers with retail traders across Saudi Arabia.
+    <strong>B2B Wholesale Food Platform</strong><br>
+    Connecting suppliers with retail traders across Saudi Arabia with real-time tracking and offline-first cart.
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Status-Production-success?style=for-the-badge" alt="Status" />
-    <a href="https://drive.google.com/file/d/1RCW1TXXOjuq6XVyr-lq9S-q4uxo72rmF/view?usp=sharing" target="_blank"><img alt="Demo Video" src="https://img.shields.io/badge/Demo-Video-blue?style=for-the-badge&logo=google-drive&logoColor=white"></a>
+    <strong>Market:</strong> Saudi Arabia 🇸🇦
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Flutter-3.0+-02569B?logo=flutter&logoColor=white" alt="Flutter" />
-    <img src="https://img.shields.io/badge/Dart-3.0+-0175C2?logo=dart&logoColor=white" alt="Dart" />
-    <img src="https://img.shields.io/badge/Platforms-Android%20%7C%20iOS-lightgrey" alt="Platforms" />
-    <img src="https://img.shields.io/badge/Backend-.NET-512BD4?logo=.net&logoColor=white" alt="Backend" />
-    <img src="https://img.shields.io/badge/State-GetX-orange" alt="State" />
+    <a href="https://play.google.com/store/apps/details?id=com.newenterpot.app" target="_blank">
+      <img alt="Get it on Google Play" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" height="50" />
+    </a>
+    &nbsp;
+    <a href="https://apps.apple.com/app/id6451003683" target="_blank">
+      <img alt="Download on the App Store" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" height="50" />
+    </a>
+    <br>
+    <br>
+    <a href="https://drive.google.com/file/d/1RCW1TXXOjuq6XVyr-lq9S-q4uxo72rmF/view?usp=sharing" target="_blank">
+        <img alt="Demo Video" src="https://img.shields.io/badge/Watch_Demo-Video-red?style=for-the-badge&logo=youtube&logoColor=white" height="50">
+    </a>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Status-Production-success?style=flat-square" />
+    <img src="https://img.shields.io/badge/Platform-Android_|_iOS-green?style=flat-square" />
+    <img src="https://img.shields.io/badge/Backend-.NET-purple?style=flat-square" />
   </p>
 
 </div>
@@ -183,8 +187,21 @@ Direct Choice provides comprehensive IT services including brand identity, web d
 
 ## Contact
 
-- Email: <a href="mailto:eng.ashrf100@gmail.com?subject=Enterpot%20Inquiry">eng.ashrf100@gmail.com</a>
-- WhatsApp: <a href="https://wa.me/201287200535" target="_blank">+20 128 720 0535</a>
-- Phone: <a href="tel:+201287200535">+20 128 720 0535</a>
-- **Company Website**: <a href="https://www.dco.sa/" target="_blank">Direct Choice (DCO)</a>
+<div align="center">
+  <a href="mailto:eng.ashrf100@gmail.com?subject=Enterpot%20Inquiry">
+    <img src="https://img.shields.io/badge/Email-eng.ashrf100%40gmail.com-red?style=for-the-badge&logo=gmail" height="40">
+  </a>
+  <br>
+  <a href="https://linkedin.com/in/ashrf-atia">
+    <img src="https://img.shields.io/badge/LinkedIn-Ashrf%20Atia-blue?style=for-the-badge&logo=linkedin" height="40">
+  </a>
+  <br>
+  <a href="https://wa.me/201287200535">
+    <img src="https://img.shields.io/badge/WhatsApp-%2B20%20128%20720%200535-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="40" />
+  </a>
+  <br>
+  <a href="https://www.dco.sa/">
+    <img src="https://img.shields.io/badge/Company-Direct%20Choice-black?style=for-the-badge&logo=internet-explorer&logoColor=white" height="40" />
+  </a>
+</div>
 

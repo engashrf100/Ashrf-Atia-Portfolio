@@ -27,7 +27,7 @@
     <img src="https://img.shields.io/badge/Email-eng.ashrf100%40gmail.com-red?style=for-the-badge&logo=gmail" height="40">
   </a>
   <br>
-  <a href="https://linkedin.com/in/ashrf-atia">
+  <a href="https://www.linkedin.com/in/ashrf-atia-mostafa-92538a318/">
     <img src="https://img.shields.io/badge/LinkedIn-Ashrf%20Atia-blue?style=for-the-badge&logo=linkedin" height="40">
   </a>
   <br>
