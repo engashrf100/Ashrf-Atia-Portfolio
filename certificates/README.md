@@ -27,6 +27,7 @@
 | Certificate | Issuer | Duration |
 | --- | --- | --- |
 | [Certificate of Service & Employment Capacity](experience/smart-digital-services-employment-certificate-2014-2025.jpeg) | Smart Cards Applications Company (Smart Digital Services) | 21 July 2014 – 25 May 2025 |
+| [Best Employee 2019 - All Branches](experience/best_employee_2019.jpeg) | Smart Digital Services | 2019 |
 
 ### Soft Skills, Workshops & Professional Development
 

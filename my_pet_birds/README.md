@@ -14,11 +14,7 @@
     (Algorithms 100% Complete & Verified)
   </p>
 
-  <p>
-    <a href="https://drive.google.com/file/d/1xh0cbbUBMyYCcYJznF7djC7QncPhVoNN/view?usp=sharing" target="_blank">
-      <img src="https://img.shields.io/badge/Watch_Demo-Video-red?style=for-the-badge&logo=youtube&logoColor=white" height="50" />
-    </a>
-  </p>
+
 
   <p>
     <img src="https://img.shields.io/badge/Flutter-3.0+-02569B?logo=flutter&logoColor=white" alt="Flutter" />
