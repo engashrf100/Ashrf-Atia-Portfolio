@@ -40,41 +40,38 @@
 
 ## 📷 Screenshots
 
-````carousel
-![Screenshot 1](assets/images/screenshots/Screenshot%202026-03-05%20at%208.49.32%20PM.png)
-<!-- slide -->
-![Screenshot 2](assets/images/screenshots/Screenshot%202026-03-05%20at%208.49.51%20PM.png)
-<!-- slide -->
-![Screenshot 3](assets/images/screenshots/Screenshot%202026-03-05%20at%208.49.59%20PM.png)
-<!-- slide -->
-![Screenshot 4](assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.04%20PM.png)
-<!-- slide -->
-![Screenshot 5](assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.09%20PM.png)
-<!-- slide -->
-![Screenshot 6](assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.14%20PM.png)
-<!-- slide -->
-![Screenshot 7](assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.25%20PM.png)
-<!-- slide -->
-![Screenshot 8](assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.34%20PM.png)
-<!-- slide -->
-![Screenshot 9](assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.40%20PM.png)
-<!-- slide -->
-![Screenshot 10](assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.51%20PM.png)
-<!-- slide -->
-![Screenshot 11](assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.56%20PM.png)
-<!-- slide -->
-![Screenshot 12](assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.01%20PM.png)
-<!-- slide -->
-![Screenshot 13](assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.06%20PM.png)
-<!-- slide -->
-![Screenshot 14](assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.17%20PM.png)
-<!-- slide -->
-![Screenshot 15](assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.31%20PM.png)
-<!-- slide -->
-![Screenshot 16](assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.58%20PM.png)
-<!-- slide -->
-![Screenshot 17](assets/images/screenshots/Screenshot%202026-03-05%20at%208.52.14%20PM.png)
-````
+<table>
+  <tr>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.49.32%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.49.51%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.49.59%20PM.png" width="240" /></td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.04%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.09%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.14%20PM.png" width="240" /></td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.25%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.34%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.40%20PM.png" width="240" /></td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.51%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.56%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.01%20PM.png" width="240" /></td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.06%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.17%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.31%20PM.png" width="240" /></td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.58%20PM.png" width="240" /></td>
+    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.52.14%20PM.png" width="240" /></td>
+    <td></td>
+  </tr>
+</table>
 
 ---
 
