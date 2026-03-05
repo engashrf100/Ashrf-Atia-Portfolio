@@ -1,11 +1,11 @@
 <div align="center">
 
   <p align="center">
-    <img src="assets/unnamed.webp" alt="MailStorm Cover 1" width="320" />
-    <img src="assets/unnamed%20(1).webp" alt="MailStorm Cover 2" width="320" />
+    <img src="./assets/cover_1.webp" alt="MailStorm Cover 1" width="320" />
+    <img src="./assets/cover_2.webp" alt="MailStorm Cover 2" width="320" />
   </p>
 
-  <img src="assets/images/app_logo.png" alt="MailStorm" width="140" height="140" />
+  <img src="./assets/images/app_logo.png" alt="MailStorm" width="140" height="140" />
 
   <h1>MailStorm — AI-Powered Job Application Emailer</h1>
 
@@ -42,33 +42,33 @@
 
 <table>
   <tr>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.49.32%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.49.51%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.49.59%20PM.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_01.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_02.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_03.png" width="240" /></td>
   </tr>
   <tr>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.04%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.09%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.14%20PM.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_04.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_05.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_06.png" width="240" /></td>
   </tr>
   <tr>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.25%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.34%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.40%20PM.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_07.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_08.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_09.png" width="240" /></td>
   </tr>
   <tr>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.51%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.50.56%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.01%20PM.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_10.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_11.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_12.png" width="240" /></td>
   </tr>
   <tr>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.06%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.17%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.31%20PM.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_13.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_14.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_15.png" width="240" /></td>
   </tr>
   <tr>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.51.58%20PM.png" width="240" /></td>
-    <td><img src="assets/images/screenshots/Screenshot%202026-03-05%20at%208.52.14%20PM.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_16.png" width="240" /></td>
+    <td><img src="./assets/images/screenshots/screenshot_17.png" width="240" /></td>
     <td></td>
   </tr>
 </table>
