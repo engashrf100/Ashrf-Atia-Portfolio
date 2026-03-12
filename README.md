@@ -100,15 +100,21 @@ Welcome to my professional portfolio. This repository contains a curated collect
 
 ## 📊 Data Analysis Projects
 
-*Data analysis, visualization, and insights projects will be added here.*
+### 📈 [Smart – Digital Services Data Operations](./smart/)
+**Role**: Technical Support Supervisor & Data Analyst (2021 – 2025)  
+**Stack**: Python (Pandas), PowerBI, Advanced Excel (PowerQuery, Pivot Tables), SQL  
+**Achievements**: Produced critical financial and operational reports for government and banking clients. Engineered a Python automation script under extreme deadline pressure to securely migrate 4,000 merchants over 24 hours.
 
----
+> [View Data Operations & Achievements →](./smart/)
 
-## 🔧 Technical Support Projects
+## 🔧 Technical Operations & Support Projects
 
-*Technical support, maintenance, and consulting projects will be added here.*
+### 🏢 [Smart – Digital Services](./smart/) - Government Digital Infrastructure
+**Tenure**: 2014 – May 2025 (11 Years) | **Role**: Technical Support Supervisor  
+**Market**: 🇪🇬 Egypt (National Government Programs: Tamoein, Baby Milk, Takaful & Karama)  
+**Highlights**: Managed national subsidy and FinTech systems serving 2M+ users, deployed POS network to 4,000+ merchants, directed a regional technical team across 3 governorates.
 
----
+> [View Full Operations Profile →](./smart/)
 
 ## Contact
 
