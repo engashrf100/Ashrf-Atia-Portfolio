@@ -40,7 +40,11 @@ pubspec.lock
 
 
 # CV Artifacts
-*.pdf
 *.html
+
+# Ignore generic PDFs but allow specific CVs
+*.pdf
+!cv/CV_Flutter_v3.pdf
+!cv/CV_ITPM_v3.pdf
 
 

@@ -7,8 +7,11 @@
   </p>
 
   <p>
-    <a href="cv-2pages.pdf" target="_blank">
-      <img src="https://img.shields.io/badge/📄%20CV-Download-red?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download CV" />
+    <a href="./cv/CV_Flutter_v3.pdf" target="_blank">
+      <img src="https://img.shields.io/badge/📱%20Flutter_CV-Download-blue?style=for-the-badge&logo=flutter&logoColor=white" alt="Download Flutter CV" />
+    </a>
+    <a href="./cv/CV_ITPM_v3.pdf" target="_blank">
+      <img src="https://img.shields.io/badge/💼%20IT_Operations_Lead_CV-Download-red?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download IT CV" />
     </a>
     <a href="./certificates/README.md" target="_blank">
       <img src="https://img.shields.io/badge/🏆%20Certificates-View-green?style=for-the-badge&logo=github&logoColor=white" alt="Certificates" />
@@ -28,12 +31,12 @@
 
 ## Overview
 
-Welcome to my professional portfolio. This repository contains a curated collection of projects demonstrating expertise in mobile application development, data analysis, and technical consulting. Each project is self-contained with comprehensive documentation, technical specifications, demos, and implementation details.
+Welcome to my professional portfolio. This repository showcases my dual expertise as a **Flutter Mobile Engineer** and an **IT Service Delivery & Operations Lead**. It contains a curated collection of projects demonstrating expertise in building scalable mobile applications, as well as leading enterprise-level IT service operations and digital transformations.
 
-**Focus Areas:**
-- **Mobile Development**: Flutter cross-platform applications with production-ready architecture
-- **Data Analysis**: Data-driven insights and visualization projects
-- **Technical Support**: Consulting, maintenance, and optimization services
+**Dual Expertise Focus Areas:**
+- **📱 Mobile Development**: Flutter cross-platform applications with production-ready architecture, offline-first systems, and AI integration.
+- **💼 IT Service Operations**: 10+ years delivering IT service management, FinTech operations, and digital transformations at national scale (serving 3M+ users).
+- **📊 Data Analysis & Support**: Python automation, SQL, and data-driven insights bridging operational leadership with deep technical execution.
 
 ## 📱 Mobile Applications (Flutter)
 
@@ -47,6 +50,26 @@ Welcome to my professional portfolio. This repository contains a curated collect
 **Highlights**: Custom chart system (NasehLineChart), glassmorphism design, financial-grade calculators, dual theme system
 
 > [View Project Details →](./nase7/)
+
+---
+
+#### 📧 [MailStorm — AI Emailer](./mailstorm/)
+**Year**: 2025-2026 | **Status**: ✅ Production  
+**Market**: Global  
+**Stack**: Flutter, Riverpod, Gemini 2.5 Flash, OAuth2 (Gmail/Outlook), Drift (SQLite)  
+**Highlights**: AI-powered personalized cold emailing, 11 languages, multi-provider OAuth, encrypted file sharing.
+
+> [View Project Details →](./mailstorm/)
+
+---
+
+#### 🧬 [My Pet Birds — Genetics Engine](./my_pet_birds/)
+**Year**: 2026 | **Status**: 🎨 Algorithms Complete (UI/UX Pending)  
+**Market**: Global (Aviculture)  
+**Stack**: Flutter, BLoC, Drift (SQLite), Gemini AI (Bird Recognition)  
+**Highlights**: Scientific-grade genetic calculator for 10+ species, endorsed by European Aviculture Magazine, offline-first inheritance engine.
+
+> [View Project Details →](./my_pet_birds/)
 
 ---
 
@@ -98,6 +121,15 @@ Welcome to my professional portfolio. This repository contains a curated collect
 
 ---
 
+#### 🏢 [DCO | Direct Choice](https://www.dco.sa/)
+**Year**: 2023 | **Status**: ✅ Production (KSA Market)  
+**Stack**: Flutter, BLoC, GetX, REST APIs  
+**Highlights**: Maintained and upgraded 5+ legacy KSA commercial apps (e.g., Maharah Learn, Zidny, Qafza Booking, Matjary KSA, SaryShop).
+
+> [Visit Website →](https://www.dco.sa/)
+
+---
+
 ## 📊 Data Analysis Projects
 
 ### 📈 [Smart – Digital Services Data Operations](./smart/)
@@ -107,14 +139,28 @@ Welcome to my professional portfolio. This repository contains a curated collect
 
 > [View Data Operations & Achievements →](./smart/)
 
-## 🔧 Technical Operations & Support Projects
+## 💼 IT Service Delivery & Operations Management
 
-### 🏢 [Smart – Digital Services](./smart/) - Government Digital Infrastructure
-**Tenure**: 2014 – May 2025 (11 Years) | **Role**: Technical Support Supervisor  
-**Market**: 🇪🇬 Egypt (National Government Programs: Tamoein, Baby Milk, Takaful & Karama)  
-**Highlights**: Managed national subsidy and FinTech systems serving 2M+ users, deployed POS network to 4,000+ merchants, directed a regional technical team across 3 governorates.
+### 🏛️ [Smart – Digital Services](./smart/) - National Digital Infrastructure
+**Tenure**: 2014 – May 2025 (11 Years) | **Role**: IT Service Delivery & Operations Lead  
+**Market**: 🇪🇬 Egypt (National Programs: Tamoein, Takaful & Karama)  
+**Scope**: 3M+ Citizens · 100,000+ Daily Transactions · 4,000+ POS Terminals  
+**Highlights**: 
+- Delivered IT service management and digital transformation at national scale.
+- Directed regional technical teams across 3 governorates ensuring SLA governance.
+- Bridged operational leadership with deep technical execution in government and banking sectors.
 
 > [View Full Operations Profile →](./smart/)
+
+### 💳 [Damen e-Payment](./damen/) - FinTech Solutions
+**Tenure**: 2018 – 2020 | **Role**: Sr. E-Payment Solutions & Pre-Sales Lead  
+**Market**: 🇪🇬 Egypt (FinTech)  
+**Highlights**: 
+- Led digital transformation initiatives for e-payment solutions.
+- Managed 4,000+ POS terminals and 3M+ monthly transactions.
+- Awarded **#1 Employee Certificate** across all 24 branches in 2020.
+
+> [View Damen Profile →](./damen/)
 
 ## Contact
 
